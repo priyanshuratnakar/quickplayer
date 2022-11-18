@@ -1,11 +1,8 @@
 import Head from "next/head";
 import { Flex, Text, Button, Box } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
-import Link from "next/link";
 import ReactPlayer from "react-player";
 import React, { useState, useEffect } from "react";
 import { RWebShare } from "react-web-share";
-import axios from "axios";
 import { arr } from "../database/db";
 import styles from '../styles/Player.module.css'
 
@@ -22,7 +19,7 @@ export default function Home() {
     <div className={styles.container}>      
         <div className="player">
           <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"} height={"100vh"}>
-            <Flex display={{base:"none",md:"flex"}}
+            <Flex
               flexDir={"column"}
               align={"center"}
               marginTop={"67px"}
@@ -99,18 +96,6 @@ export default function Home() {
                 </div>
               </Flex>
             </Flex>
-
-            <Flex flexDir={"column"} align={"center"} marginTop={"10%"}  display={{md:"none",base:"flex"}}>
-          
-          <Text
-              fontFamily={"Architects Daughter, cursive"}
-              textAlign={"center"}
-              color={"white"}
-              fontSize={{ base: "15px", md: "32px" }}
-            >
-              Mobile version under ⚒️
-          </Text>
-        </Flex>
           </Flex>
 
         </div>

@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/entertainment": "pages/entertainment.js",
   "/": "pages/index.js",
-  "/comedy": "pages/comedy.js",
-  "/tmkoc": "pages/tmkoc.js",
-  "/gameplay": "pages/gameplay.js",
-  "/entertainment": "pages/entertainment.js"
+  "/player": "pages/player.js"
 }

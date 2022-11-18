@@ -16,7 +16,7 @@ export default function Home() {
     <div className={styles.container}>      
 
     <div className="player">
-      <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"}>
+      <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"} height={"100vh"}>
         <Flex
           flexDir={"column"}
           align={"center"}
@@ -95,6 +95,8 @@ export default function Home() {
             </div>
           </Flex>
         </Flex>
+
+
       </Flex>
     </div>
     
