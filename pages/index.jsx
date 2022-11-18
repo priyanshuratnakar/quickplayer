@@ -3,8 +3,13 @@ import { Image } from "@chakra-ui/react";
 import Link from "next/link";
 import { RWebShare } from "react-web-share";
 import styles from '../styles/Index.module.css'
+import { extendTheme } from '@chakra-ui/react'
 
 export default function Home() {
+  const config = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+}
   const scrollTo = (event, selector) => {
     event.preventDefault();
     document.querySelector(selector).scrollIntoView({ behavior: "smooth" });
