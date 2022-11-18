@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+html{
+  background-image: url("https://cdn.pixabay.com/photo/2022/11/17/20/45/20-45-44-573_1280.jpg");
+  background-size: cover;
+  
+
+}
+
+.main{
+  background-image: url("https://cdn.pixabay.com/photo/2022/11/17/20/45/20-45-44-573_1280.jpg");
+  background-size: cover; 
+
+}
+
+.player{
+  background-image: url("https://cdn.pixabay.com/photo/2022/11/17/20/45/20-45-50-447_1280.jpg");
+  background-size: cover; 
+  
+
+}
+/* mobile phones*/
+@media only screen and (max-width: 768px){
+
+}
+
