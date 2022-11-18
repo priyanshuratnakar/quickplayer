@@ -18,7 +18,8 @@ export default function Home() {
   return (
     <div className={styles.container}>      
         <div className="player">
-          <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"} height={"100vh"}>
+        <meta name="viewport" content="width=1024"/>
+          <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"} height={"100vh"} >
             <Flex
               flexDir={"column"}
               align={"center"}

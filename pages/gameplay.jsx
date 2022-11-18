@@ -16,6 +16,7 @@ export default function Home() {
     <div className={styles.container}>      
 
     <div className="player">
+    <meta name="viewport" content="width=1024"/>
       <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"} height={"100vh"}>
         <Flex
           flexDir={"column"}
@@ -23,7 +24,6 @@ export default function Home() {
           marginTop={"67px"}
           marginLeft={"11"}
         >
-          <meta name="viewport" content="width=1024"></meta>
           <ReactPlayer
             width={"1016px"}
             height={"579px"}
