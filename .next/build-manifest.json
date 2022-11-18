@@ -30,11 +30,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/gameplay": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/gameplay.js"
-    ],
     "/player": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

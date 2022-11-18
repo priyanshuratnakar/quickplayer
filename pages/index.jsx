@@ -12,6 +12,8 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <meta name="viewport" content="initial-scale=1.0 , minimum-scale=1.0 , maximum-scale=1.0" />
+
     <div className="main">
       <Flex flexDir={"column"} align={"center"} paddingBottom={"38px"}>
         <Flex
