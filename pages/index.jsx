@@ -1,9 +1,8 @@
-import Head from "next/head";
 import { Flex, Text, Button } from "@chakra-ui/react";
 import { Image } from "@chakra-ui/react";
 import Link from "next/link";
-import link from "react-scroll";
 import { RWebShare } from "react-web-share";
+import styles from '../styles/Index.module.css'
 
 export default function Home() {
   const scrollTo = (event, selector) => {
@@ -12,6 +11,7 @@ export default function Home() {
   };
 
   return (
+    <div className={styles.container}>
     <div className="main">
       <Flex flexDir={"column"} align={"center"} paddingBottom={"38px"}>
         <Flex
@@ -229,6 +229,9 @@ export default function Home() {
           </Flex>
         </Flex>
       </Flex>
+
+
+    </div>
     </div>
   );
 }

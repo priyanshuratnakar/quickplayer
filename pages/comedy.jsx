@@ -1,11 +1,10 @@
-import Head from "next/head";
 import { Flex, Text, Button } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
-import Link from "next/link";
 import ReactPlayer from "react-player";
 import React, { useState, useEffect } from "react";
 import { RWebShare } from "react-web-share";
 import axios from "axios";
+import styles from '../styles/Player.module.css'
+
 
 export default function Home() {
   let [links, setLinks] = useState([]);
@@ -28,7 +27,8 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="main">
+    <div className={styles.container}>      
+    <div className="player">
       <meta name="viewport" content="width=1024"></meta>
 
       <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"}>
@@ -110,6 +110,7 @@ export default function Home() {
           </Flex>
         </Flex>
       </Flex>
+    </div>
     </div>
   );
 }

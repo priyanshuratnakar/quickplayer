@@ -1,12 +1,10 @@
-import Head from "next/head";
 import { Flex, Text, Button } from "@chakra-ui/react";
-import { Image } from "@chakra-ui/react";
-import Link from "next/link";
 import ReactPlayer from "react-player";
 import React, { useState, useEffect } from "react";
 import { RWebShare } from "react-web-share";
-import axios from "axios";
 import { arr } from "../database/entertainment.db";
+import styles from '../styles/Player.module.css'
+
 
 export default function Home() {
   let [prevIndex, setPrevIndex] = useState();
@@ -15,7 +13,8 @@ export default function Home() {
   let sameLink1 = "https://www.youtube.com";
 
   return (
-    <div className="main">
+    <div className={styles.container}>      
+    <div className="player">
       <Flex flexDir={"column"} justify={"center"} paddingBottom={"38px"}>
         <Flex
           flexDir={"column"}
@@ -96,6 +95,7 @@ export default function Home() {
           </Flex>
         </Flex>
       </Flex>
+    </div>
     </div>
   );
 }
