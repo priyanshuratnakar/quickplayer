@@ -7,7 +7,7 @@ import { extendTheme } from '@chakra-ui/react'
 
 export default function Home() {
   const config = {
-  initialColorMode: 'light',
+  initialColorMode: 'dark',
   useSystemColorMode: false,
 }
   const scrollTo = (event, selector) => {
