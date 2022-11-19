@@ -192,7 +192,7 @@ export default function Home() {
               switch on our TV and watch whatever offered and it was actually
               pretty good back then. So I came up with this idea and created 
               <b> Quick Player</b>, watch your favourites shows the old style. It will play
-              a random episode from YouTube and it&apos;s adds free FR.
+              a random episode from YouTube and it&apos;s ads free FR.
             </Text>
           </Flex>
         </div>
